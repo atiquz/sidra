@@ -18,7 +18,7 @@ Sidra is a carefully crafted color scheme for Helix that combines:
 ### ⚙️ Full Helix Integration
 - Complete UI theming (status bar, popups, gutters)  
 - Git diff markers and diagnostic underlines  
-- Optimized for long coding sessions  
+- Optimized for long coding sessions
 
 ### 🔧 Painless Customization
 ```toml
@@ -26,3 +26,9 @@ Sidra is a carefully crafted color scheme for Helix that combines:
 # Example customizations:
 bg_normal = "#BD93F9"       # Change mode indicator
 markup_heading = "#FF69B4"  # Adjust heading color
+```
+
+***
+# Screenshots
+### HTML Screenshot
+![Alt text](./html-screenshot.png?raw=true "HTML Code")
