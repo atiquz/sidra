@@ -105,7 +105,7 @@ namespace                    = "#7095bf"  # Steel blue
 punctuation                  = "#FFFFFF"  # White
 "punctuation.delimiter"      = "#FFFFFF"  # White (delimiter punctuation)
 operator                     = "#987654"  # Dusty brown (used to be "muddy")
-special                      = "##c90076"     # Pink Color
+special                      = "##c90076" # Pink Color
 
 # === VARIABLES ===
 variable                     = "#7ec67f"  # Soft green
