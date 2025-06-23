@@ -213,7 +213,7 @@ bg_inactive             = "#303030"        # Dark gray (inactive statusline bg)
 
 # ===== HINT INFO ERROR & WARNING COLORS =====
 
-cl_hint     = "#f1fa8c"   # Bright yellow
-cl_info     = "#f1fa8c"   # Same as hint
-cl_error    = "#ff69b4"   # Bright pink
-cl_warning  = "#f1fa8c"   # Same as hint
+cl_hint                 = "#f1fa8c"        # Bright yellow
+cl_info                 = "#f1fa8c"        # Same as hint
+cl_error                = "#ff69b4"        # Bright pink
+cl_warning              = "#f1fa8c"        # Same as hint
