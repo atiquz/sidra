@@ -109,8 +109,8 @@ namespace                     = "#7095bf"  # Steel blue
 "keyword.operator"            = { fg = "#528BFF"                                               }
 "keyword.function"            = { fg = "#56B6C2",               modifiers = ["bold"]           }
 "keyword.storage"             = { fg = "#C678DD",               modifiers = ["bold"]           }
-"keyword.storage.type"        = { fg = "#56B6C2",               modifiers = ["bold"]         }
-"keyword.storage.modifier"    = { fg = "#56B6C2",               modifiers = ["bold"]         }
+"keyword.storage.type"        = { fg = "#56B6C2",               modifiers = ["bold"]           }
+"keyword.storage.modifier"    = { fg = "#56B6C2",               modifiers = ["bold"]           }
 
 
 
