@@ -96,22 +96,35 @@ warning                       =    "cl_warning"
 
 
 # === ATTRIBUTES & KEYWORDS ===
-attribute                    = "#a7bf67"  # Olive green
-keyword                      = "#A4A2B4"  # Muted lavender gray
-"keyword.directive"          = "#D3D3D3"  # Light gray (used to be "light-gray")
-namespace                    = "#7095bf"  # Steel blue
+attribute                     = "#a7bf67"  # Olive green
+namespace                     = "#7095bf"  # Steel blue
+
+"keyword"                     = { fg = "#56B6C2",               modifiers = ["bold"]           }
+"keyword.control"             = { fg = "#56B6C2",               modifiers = ["bold"]           }
+"keyword.control.conditional" = { fg = "#E06C75",               modifiers = ["bold"]           }
+"keyword.control.repeat"      = { fg = "#56B6C2",               modifiers = ["bold"]           }
+"keyword.control.import"      = { fg = "#C678DD",               modifiers = ["bold"]           }
+"keyword.control.return"      = { fg = "#E06C75",               modifiers = ["bold"]           }
+"keyword.control.exception"   = { fg = "#BE5046",               modifiers = ["bold"]           }
+"keyword.operator"            = { fg = "#528BFF"                                               }
+"keyword.function"            = { fg = "#56B6C2",               modifiers = ["bold"]           }
+"keyword.storage"             = { fg = "#C678DD",               modifiers = ["bold"]           }
+"keyword.storage.type"        = { fg = "#56B6C2",               modifiers = ["bold"]         }
+"keyword.storage.modifier"    = { fg = "#56B6C2",               modifiers = ["bold"]         }
+
+
 
 # === SYMBOLS & OPERATORS ===
 punctuation                  = "#FFFFFF"  # White
 "punctuation.delimiter"      = "#FFFFFF"  # White (delimiter punctuation)
-operator                     = "#987654"  # Dusty brown (used to be "muddy")
+operator                     = "#E06C75"  # Dusty brown (used to be "muddy")
 special                      = "#c90076"  # Pink Color
 
 # === VARIABLES ===
-variable                     = "#7ec67f"  # Soft green
-"variable.other.member"      = "#7ec67f"  # Soft green (class or object members)
-"variable.parameter"         = "#a8ffb4"  # Pale mint green
-"variable.builtin"           = "#a8ffb4"  # Pale mint green (special language vars)
+"variable"                   = "#F8F8F2"  # Soft green
+"variable.other"             = "#F8F8F2"  # Pale mint green (special language svars)
+"variable.builtin"           = "#61AFEF"  # Blue
+"variable.parameter"         = "#F8F8F2"  # Pale mint green
 
 # === TYPES ===
 type                         = "#efbe4c"  # Golden yellow
@@ -119,20 +132,22 @@ type                         = "#efbe4c"  # Golden yellow
 constructor                  = "#c19ef7"  # Light lilac
 
 # === FUNCTIONS ===
-function                     = "#987654"  # Dusty brown (used to be "muddy")
-"function.macro"             = "#987654"  # Dusty brown (macro functions)
+"function"                   = "#98C379"  # Green
+"function.macro"             = "#98C379"  # Green
+"function.method"            = "#98C379"  # Green
 "function.builtin"           = "#db985e"  # Orange tan
+"function.special"           = "#db985e"  # Orange tan
 
 # === TAGS ===
 tag                          = "#d37a78"  # Soft salmon pink
 
 # === COMMENTS ===
-comment                      = "#D3D3D3"  # Light gray
+comment                      = "#646f69"  # Light gray
 
 # === CONSTANTS ===
 constant                     = "#A5C4D4"  # Pale blue
 "constant.builtin"           = "#f1fa8c"  # Bright yellow
-"constant.numeric"           = "#b577b0"  # Muted violet
+"constant.numeric"           = "#ae81ff"  # Muted violet
 "constant.character.escape"  = "#c95c56"  # Coral red (escape characters)
 
 # === STRINGS ===
@@ -175,7 +190,7 @@ markup_raw              = "#808080"        # Medium gray
 # ===== PRIMARY UI COLORS =====
 
 foreground              = "#D3D3D3"        # Light gray (default text)
-background              = "#1f1f21"        # Very dark gray (background)
+background              = "#232323"        # Very dark gray (background)
 
 # ===== UI INTERFACE COLORS =====
 
