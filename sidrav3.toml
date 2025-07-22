@@ -113,10 +113,9 @@ namespace                     = "#7095bf"  # Steel blue
 "keyword.storage.modifier"    = { fg = "#56B6C2",               modifiers = ["bold"]           }
 
 
-
 # === SYMBOLS & OPERATORS ===
 "punctuation"                = "#FFFFFF"  # White
-"punctuation.delimiter"      = "#FFFFFF"  # White (delimiter punctuation)
+"punctuation.delimiter"      = "#F3F2CC"  # White (delimiter punctuation)
 "punctuation.bracket"        = "#FFFFFF"  # Yellow
 "punctuation.special"        = "#ffd700"  # Yello
 operator                     = "#F3F2CC"  # Dusty brown (used to be "muddy")
