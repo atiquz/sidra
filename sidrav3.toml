@@ -105,7 +105,7 @@ namespace                     = "#7095bf"  # Steel blue
 "keyword.control.repeat"      = { fg = "#d37a78",               modifiers = ["bold"]           }
 "keyword.control.import"      = { fg = "#C678DD",               modifiers = ["bold"]           }
 "keyword.control.return"      = { fg = "#88aece",               modifiers = ["bold"]           }
-"keyword.control.exception"   = { fg = "#BE5046",               modifiers = ["bold"]           }
+"keyword.control.exception"   = { fg = "#FF79C6",               modifiers = ["bold"]           }
 "keyword.operator"            = { fg = "#528BFF"                                               }
 "keyword.function"            = { fg = "#d37a78",               modifiers = ["bold"]           }
 "keyword.storage"             = { fg = "#C678DD",               modifiers = ["bold"]           }
