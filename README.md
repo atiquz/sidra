@@ -32,3 +32,5 @@ markup_heading = "#FF69B4"  # Adjust heading color
 # Screenshots
 ### HTML Screenshot
 ![Alt text](./html-screenshot.png?raw=true "HTML Code")
+### JavaScript Screenshot  
+![Alt text](./javascript.png?raw=true "JavaScript Code")
